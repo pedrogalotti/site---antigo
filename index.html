@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" typr="text/css" href="form.css" midea="screen">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEU FORM ESPECIAL</title>
+</head>
+  <body>
+      <div>
+          <h1 id="titulo">Magrelinn TV</h1>
+          <p id="subtitulo">Site Oficial</p>
+      </div>
+
+      <form>
+         <fieldset class="grupo">
+            <div class="campo">
+              <label for="name"><strong>Nome</strong></label>
+              <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo"> 
+              <label for="sobrenome"><strong>Sobrenome</strong></label>
+              <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+         </fieldset>
+
+            <div class="campo">
+              <label><strong>Conhece Magrelinn TV de onde?</strong></label>
+              <label>
+                <input type="radio" name="siteweb" value="YouTube" checked>YouTube
+              </label>
+
+              <labhel>
+                <input type="radio" name="siteweb" value="Instagram">Instagram
+              </labhel>
+
+              <label>
+                <input type="radio" name="siteweb" value="Discord">Discord
+              </label>
+            </div>
+
+         <div class="campo">
+            <label for="tempo"><strong>Quanto tempo Voce Conhece?</strong></label>
+              <select id="tempo">
+                <option select disabled value="">Selecione</option>
+                <option>4 anos</option>
+                <option>3 anos</option>
+                <option>2 anos</option>
+                <option>1 ano</option>
+                <option>esse ano</option>
+              </select>
+         </div>
+
+         <fieldset class="grupo">
+           <div id="check">
+             <label><strong>Selecione oque vocês ja usaram no site!</strong></label><br><br>
+             <input type="Checkbox" id="tecnologia" name="tecnologia" value="Nada Por Inquanto">
+             <label for="tecnologia">Nada Por Inquanto</label><br>
+             <label>Obs: nada postado ainda</label><br><br>
+           </div>
+
+         </fieldset>
+
+         <div>Clique em FINALIZAR para Concluir!</div>
+         
+           <div>
+             <a class="finalizar" href="http://127.0.0.1:5500/index2.html" type="submit">FINALIZAR</a>
+           </div>
+    </form>
+     
+  </body>
+</html>
