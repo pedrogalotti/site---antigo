@@ -16,9 +16,9 @@ body{
   padding: 0.2em 0.6em;
   text-shadow: 1px 1px 1px rgb(224, 18, 18);
   position: absolute;
-  transform: translate(1050%, -915%);
+  transform: translate(1035%, -730%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 .redes-sociais{
@@ -28,9 +28,9 @@ body{
   padding: 0.2em 0.6em;
   text-shadow: 1px 1px 1px rgb(231, 20, 20);
   position: absolute;
-  transform: translate(1030%, -915%);
+  transform: translate(1015%, -730%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 @media screen and (min-width:320px) and (max-width:768px){
@@ -47,4 +47,3 @@ body{
 }
 }
 
-}

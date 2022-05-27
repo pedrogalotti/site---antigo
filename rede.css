@@ -12,7 +12,7 @@ body{
   position: absolute;
   transform: translate(625%, 400%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 .YouTube{
@@ -24,7 +24,7 @@ body{
   position: absolute;
   transform: translate(673.5%,530%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 .Discord{
@@ -36,7 +36,7 @@ body{
   position: absolute;
   transform: translate(750%, 660%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 .Twitter{
@@ -48,7 +48,7 @@ body{
   position: absolute;
   transform: translate(805%, 800%);
   text-decoration: none;
-  border: 1px solid #000
+  border: 1px solid #000;
 }
 
 @media screen and (min-width:320px) and (max-width:768px) {
