@@ -1,0 +1,50 @@
+body{
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+.nome{
+  margin:-0.5%;
+  margin-top:-1.8%;
+  max-width:430px;
+}
+
+.download{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(224, 18, 18);
+  position: absolute;
+  transform: translate(1050%, -915%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+.redes-sociais{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(1030%, -915%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+body{
+  background-color: greenyellow;
+}
+  
+.download{
+  transform: translate(35%, 780%);
+}
+.redes-sociais{
+  transform: translate(150%, 780%);
+}
+}
+
+}

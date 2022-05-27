@@ -28,7 +28,7 @@ body{
   background-color: rgba(10, 252, 163, 0.552);
   font-family: sans-serif;
   font-size: 1em;
-  color:blueviolet;
+  color:rgb(13, 11, 14);
   margin-left:38%;
   margin-top: 2%;
   justify-content: center;
@@ -44,7 +44,7 @@ input, select, testarea, button{
 
 .campo label{
   margin-bottom: 0.2em;
-  color:rgb(129, 66, 188);
+  color:rgb(5, 3, 7);
   display: block;
 }
 
@@ -92,7 +92,7 @@ div{
 
 .button{
   font-size: 1.2em;
-  background: purple;
+  background: rgb(11, 9, 11);
   border: 0;
   margin-bottom: 1em;
   color: #ffffff;

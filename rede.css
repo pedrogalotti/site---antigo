@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+  margin:0;
+}
+
+.Instagram{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(625%, 400%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+.YouTube{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(673.5%,530%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+.Discord{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(750%, 660%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+.Twitter{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(805%, 800%);
+  text-decoration: none;
+  border: 1px solid #000
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+.Instagram{
+  transform: translate(123%,450%);
+}
+
+.YouTube{
+  transform: translate(135%,600%);
+}
+
+.Discord{
+  transform: translate(155%,745%);
+}
+
+.Twitter {
+  transform: translate(170%,900%);
+}
+
+}
