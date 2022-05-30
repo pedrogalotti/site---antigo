@@ -1,9 +1,13 @@
 body{
-  max-width: 1920px;
-  max-height: 1080px;
+ background-color:rgb(229, 163, 20);
+}
+
+.inct{
+  margin-top:20%;
 }
 
 .nome{
+  color:rgb(10, 8, 174);
   margin:-0.5%;
   margin-top:-1.8%;
   max-width:430px;
@@ -33,17 +37,112 @@ body{
   border: 1px solid #000;
 }
 
+.aviso{
+  margin-left:-2.5%;
+  margin-top:0%;
+}
+
+a{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(1015%, -730%);
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+a:hover{
+  background-color:rgb(118, 28, 18);
+}
+
+.cntt{
+  font-size:1.1em;
+  background-color:aqua;
+  padding:0.2em 0.5em;
+  text-shadow: 1px 1px 1px black;
+  text-decoration:none;
+  position: absolute;
+  margin-left:-7.5%;
+  margin-top:0%;
+  border: 1px solid #000;
+}
+
+.sobre-min{
+  margin-top:0%;
+}
+
+.ffx86{
+  margin-top:-12%;
+  margin-left:86%;
+}
+
 @media screen and (min-width:320px) and (max-width:768px){
 
 body{
   background-color: greenyellow;
+  width:50vh;
+  height:200vh;
 }
-  
+
+.nome{
+ margin-top:-9%;
+}
+
 .download{
-  transform: translate(35%, 780%);
+  transform: translate(-5%, 2820%);
 }
 .redes-sociais{
-  transform: translate(150%, 780%);
+  transform: translate(90%, 2820%);
+}
+.aviso{
+  transform: translate(4%,2680%);
+}
+
+.cntt{
+  transform: translate(115%,2680%);
+}
+
+.ffx86{
+  margin-top:40%;
+  margin-left:2%;
 }
 }
 
+@media screen and (min-width:1920px){
+
+body{
+  background-color: gray;
+}
+
+.nome{
+  margin-top:-1.4%;
+}
+
+.download{
+  margin-top:0.5%;
+  margin-left:40.3%;
+}
+
+.redes-sociais{
+  margin-top:0.5%;
+  margin-left:28.5%;
+}
+
+.aviso{
+  margin-top:0.5%;
+  margin-left:38.3%;
+}
+
+.cntt{
+  margin-top:0.5%;
+  margin-left:24.5%;
+}
+
+.ffx86{
+  margin-left:-0.3%;
+  margin-top:10%;
+}
+}

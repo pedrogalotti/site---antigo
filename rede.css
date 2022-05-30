@@ -70,3 +70,22 @@ body{
 }
 
 }
+
+@media screen and (min-width:1920px){
+
+  .Instagram{
+    transform: translate(960%,950%);
+  }
+  
+  .YouTube{
+    transform: translate(1030%,1100%);
+  }
+  
+  .Discord{
+    transform: translate(1143%,1250%);
+  }
+  
+  .Twitter {
+    transform: translate(1225%,1400%);
+  }  
+}

@@ -1,0 +1,64 @@
+body{
+  margin:0;
+  margin-top: -2%;
+  background-color: black;
+}
+
+.avisos{
+  text-align: center;
+  color: red;
+}
+
+.aviso{
+  color:white;
+  text-align:center;
+  margin-top:5%;
+}
+
+.recados{
+  color:rgb(55, 242, 8);
+  text-align:center;
+  margin-top: 3%;
+}
+
+.recados2{
+  color:rgb(31, 220, 238);
+  text-align:center;
+  margin-top:5%;
+}
+
+a{
+  background-color:aqua;
+  color:rgb(1, 1, 1);
+  margin-left:45%;
+  padding: 0.5em 1em;
+  text-decoration:none;
+  text-shadow: 1px 1px 1px rgb(1, 1, 1);
+  border: 1px solid rgb(40, 201, 37)
+}
+
+a:hover{
+  color:rgb(246, 246, 246);
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+.recados2{
+  margin-top: 15%;
+}
+
+a{
+  margin-left:30%;
+}
+}
+
+@media screen and (min-width:1920px) {
+  
+body{
+  margin-top:1%;
+} 
+
+a{
+  margin-left:46.5%;
+}
+}

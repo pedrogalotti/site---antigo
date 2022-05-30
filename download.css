@@ -26,3 +26,15 @@ body{
 }
 
 }
+
+@media screen  and (min-width:1920px){
+
+.download{
+  margin-top:-1.2%;
+}
+
+.em-breve{
+  color:red;
+  text-align:center;
+}
+}
