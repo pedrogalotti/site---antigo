@@ -147,4 +147,28 @@ body{
   .Twitter {
     transform: translate(1225%,1400%);
   }  
+
+  .whatsapp{
+    transform: translate(960%,800%);
+  }
+
+  .insta{
+    transform: translate(3460%,1265%);
+  }
+  
+  .you{
+    transform: translate(3340%,1440%);
+  }
+  
+  .dis{
+    transform: translate(3230%,1630%);
+  }
+  
+  .twit{
+    transform: translate(3120%,1800%);
+  }
+  
+  .whats{
+    transform: translate(3000%,1090%);
+  } 
 }

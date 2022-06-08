@@ -49,14 +49,18 @@ body{
 
 }
 
-@media screen  and (min-width:1920px){
+@media screen and (min-width:1920px){
+
+  body{
+    margin:0;
+  }
 
 .download{
   margin-top:-1.2%;
 }
 
 .aberto{
-  color:red;
+  color:rgba(10, 10, 201, 0.497);
   text-align:center;
 }
 }
