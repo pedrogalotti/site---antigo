@@ -46,11 +46,47 @@ body{
   padding: 0.2em 0.6em;
   text-shadow: 1px 1px 1px rgb(231, 20, 20);
   position: absolute;
-  transform: translate(805%, 800%);
+  transform: translate(810%, 800%);
   text-decoration: none;
   border: 1px solid #000;
 }
 
+.whatsapp{
+  font-size: 1.1em;
+  background-color: aqua;
+  margin-bottom: 1em;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgb(231, 20, 20);
+  position: absolute;
+  transform: translate(630%,950%);
+  text-decoration: none;
+  border: 1px solid #000;
+}
+
+.novidades{
+  color:white;
+  transform: translate(100%,100%);
+}
+
+.insta{
+  transform: translate(2220%,600%);
+}
+
+.you{
+  transform: translate(2110%,750%);
+}
+
+.dis{
+  transform: translate(2010%,910%);
+}
+
+.twit{
+  transform: translate(1905%,1090%);
+}
+
+.whats{
+  transform: translate(1750%,1260%);
+}
 @media screen and (min-width:320px) and (max-width:768px) {
 
 .Instagram{
@@ -69,6 +105,29 @@ body{
   transform: translate(170%,900%);
 }
 
+.whatsapp{
+  transform: translate(123%,1040%);
+}
+
+.insta{
+  transform: translate(340%,660%);
+}
+
+.you{
+  transform: translate(235%,840%);
+}
+
+.dis{
+  transform: translate(136%,1020%);
+}
+
+.twit{
+  transform: translate(32%,1200%);
+}
+
+.whats{
+  transform: translate(-115%,1370%);
+}
 }
 
 @media screen and (min-width:1920px){

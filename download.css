@@ -1,17 +1,39 @@
+/* PARA RESOLUÇÃO 1280x720*/
+
 body{
-  background-color: black;
+  background-color: gray;
   margin:0;
 }
 
 .download{
   margin-top: -2%;
-  color: white;
+  color: rgb(8, 5, 5);
 }
 
-.em-breve{
-  text-align: center;
-  margin-top: 15%;
-  color: white;
+.aberto{
+  margin-top: 3%;
+  margin-left:0%;
+  color: rgb(61, 242, 16);
+}
+
+.blue{
+  margin-top:1%;
+}
+
+.msi{
+  margin-top:1%;
+}
+
+.smart{
+  margin-top:1%;
+}
+
+.obs{
+  margin-top:1%;
+}
+
+.color{
+  margin-top:1%;
 }
 
 @media screen and (min-width:320px) and (max-width:768px){
@@ -20,9 +42,9 @@ body{
   color: aqua;
 }
 
-.em-breve{
-  margin-top: 50%;
-  color: red;
+.aberto{
+  margin-top: 9%;
+  color: greenyellow;
 }
 
 }
@@ -33,7 +55,7 @@ body{
   margin-top:-1.2%;
 }
 
-.em-breve{
+.aberto{
   color:red;
   text-align:center;
 }
