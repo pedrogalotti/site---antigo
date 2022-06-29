@@ -11,8 +11,7 @@ body{
 }
 
 .aberto{
-  margin-top: 3%;
-  margin-left:0%;
+  text-align:center;
   color: rgb(61, 242, 16);
 }
 
@@ -24,7 +23,7 @@ body{
   margin-top:1%;
 }
 
-.smart{
+.ff{
   margin-top:1%;
 }
 
@@ -36,7 +35,21 @@ body{
   margin-top:1%;
 }
 
+.mobile{
+  color:aqua;
+  background-color: red;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px aqua;
+  text-decoration: none;
+  border: 1px solid #000;
+  margin-top:20%;
+}
+
 @media screen and (min-width:320px) and (max-width:768px){
+
+body{
+  margin-top:-8%;
+}
 
 .download{
   color: aqua;
@@ -62,5 +75,9 @@ body{
 .aberto{
   color:rgba(10, 10, 201, 0.497);
   text-align:center;
+}
+
+.mobile{
+  margin-top:20%;
 }
 }

@@ -1,5 +1,6 @@
 body{
  background-color:rgb(229, 163, 20);
+ 
 }
 
 
@@ -79,8 +80,7 @@ a:hover{
 
 body{
   background-color: greenyellow;
-  width:50vh;
-  height:200vh;
+  
 }
 
 .nome{
